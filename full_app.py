@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
+
 
 # -------------------------- Initialize session state keys --------------------------
 if 'master_df' not in st.session_state:
